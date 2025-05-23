@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Модальные окна</title>
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body>
+
+
+	<div class="container-modal">
+		<div class="buttons">
+			<button class="button" data-path="personal" data-animation="fadeInUp">Buy Personal</button>
+
+		</div>
+
+		<div class="modal">
+
+
+			<!-- Buy Personal -->
+			<div class="modal__container" role="dialog" aria-modal="true" data-target="personal">
+				<button type="button" class=" modal__close js-modal-close" aria-label="close modal">
+					<svg class="modal__close-icon">
+						<use xlink:href="img/sprite.svg#close"></use>
+					</svg>
+				</button>
+				<div class="modal__logo">
+					<img src="./img/svg/super.svg" alt="super" class="modal__logo-icon">
+					<span class="modal__logo-text">Super</span>
+				</div>
+				<div class="modal__header">
+					<div class="token">
+						<img src="./img/cryptocurrency/bitcoin.png" alt="bitcoin" class="token__icon">
+						<div class="token__info">
+							<div class="token__name">Bitcoin <span>BTC</span></div>
+							<div class="token__price">Price:
+								<span class="text-green">$ 101 351</span></div>
+						</div>
+					</div>
+					<ul class="socials">
+						<li class="socials__item"><a href="#" class="socials__link"><img src="./img/svg/streamline.svg"
+									alt="streamline"></a></li>
+						<li class="socials__item"><a href="#" class="socials__link"><img src="./img/svg/twitter2.svg"
+									alt="twitter"></a></li>
+						<li class="socials__item"><a href="#" class="socials__link"><img src="./img/svg/facebook.svg"
+									alt="facebook"></a></li>
+						<li class="socials__item"><a href="#" class="socials__link"><img src="./img/svg/reddit.svg"
+									alt="reddit"></a></li>
+					</ul>
+				</div>
+				<div class="modal__text">Bitcoin is the first successful internet money based on peer-to-peer technology;
+					whereby no
+					central bank or authority is involved in the transaction and production of the Bitcoin currency. It was
+					crea...
+				</div>
+				<div class="modal__market market">
+					<h2 class="market__title">Market Data</h2>
+					<div class="market__table">
+						<div class="market__column">
+							<div class="market__row">
+								<div class="market__label">Max Supply:</div>
+								<div class="market__amount">21 000 000</div>
+							</div>
+							<div class="market__row">
+								<div class="market__label">Total Supply:</div>
+								<div class="market__amount">21 000 000</div>
+							</div>
+							<div class="market__row">
+								<div class="market__label">Circulating Supply:</div>
+								<div class="market__amount">19 806 928</div>
+							</div>
+						</div>
+						<div class="market__column">
+							<div class="market__row">
+								<div class="market__label">All Time High:</div>
+								<div class="market__amount text-red">$ 108 135</div>
+							</div>
+							<div class="market__row">
+								<div class="market__label">All Time Low:</div>
+								<div class="market__amount">$ 67.81</div>
+							</div>
+							<div class="market__row">
+								<div class="market__label">Market Cap:</div>
+								<div class="market__amount">$2 009 695 777 691</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal__trade trade-moldal">
+					<h2 class="trade-moldal__title">Trade BTC</h2>
+					<ul class="trade-moldal__list">
+						<li class="trade-moldal__item">
+							<a href="#" class="trade-moldal__link">Binance</a>
+						</li>
+						<li class="trade-moldal__item">
+							<a href="#" class="trade-moldal__link">BingX</a>
+						</li>
+						<li class="trade-moldal__item">
+							<a href="#" class="trade-moldal__link">DigiFinex</a>
+						</li>
+						<li class="trade-moldal__item">
+							<a href="#" class="trade-moldal__link">MEXC</a>
+						</li>
+						<li class="trade-moldal__item">
+							<a href="#" class="trade-moldal__link">Poloniex</a>
+						</li>
+						<li class="trade-moldal__item">
+							<a href="#" class="trade-moldal__link">OKX</a>
+						</li>
+						<li class="trade-moldal__item">
+							<a href="#" class="trade-moldal__link">BitGet</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+
+
+</body>
+<style>
+	.buttons {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+		.button {
+			width: 200px;
+			height: 50px;
+		}
+	}
+
+	.container-modal {
+		padding: 50px;
+	}
+</style>
+
+</html>

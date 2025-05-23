@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Main</title>
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body>
+
+	<div class="wrapper">
+		<form action="" class=" form">
+			<div class="form__options">
+				<div class="options">
+					<div class="options__item">
+						<input id="CSV" type="radio" name="type" class="options__input">
+						<label for="CSV" class="options__label">CSV</label>
+					</div>
+					<div class="options__item">
+						<input id="XLSX" type="radio" name="type" class="options__input">
+						<label for="XLSX" class="options__label">XLSX</label>
+					</div>
+				</div>
+
+				<div class="form__items">
+					<div class="form__item">
+						<label class="form__label">Email</label>
+						<div class="input">
+							<input class="input__control" type="email" name="" value="john_johnson@gmail.com">
+						</div>
+					</div>
+					<div class="form__item">
+						<label class="form__label">Birthday Date</label>
+						<div class="input dropdown-item">
+							<input class="input__control " type="text" name="" value="25.04.2025" placeholder="" readonly>
+							<button class="input__btn dropdown-btn">
+								<img src="./img/svg/calendar.svg" alt="calendar" class="input__btn-calendar">
+							</button>
+							<div class="dropdown-account dropdown">
+							</div>
+						</div>
+					</div>
+					<div class="form__item">
+						<label class="form__label">Nickname</label>
+						<div class="input">
+							<input class="input__control" type="text" name="" value="John">
+						</div>
+					</div>
+					<div class="form__item">
+						<label class="form__label">Password</label>
+						<div class="input">
+							<input class="input__control" type="password" name="" value="john_johnson@gmail.com">
+							<button type="button" class="input__btn show-pass">
+								<svg class="input__btn-eye on">
+									<use xlink:href="img/sprite.svg#eye"></use>
+								</svg>
+								<svg class="input__btn-eye off ">
+									<use xlink:href="img/sprite.svg#eye-off"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+					<div class="form__item">
+						<label class="form__label">Category</label>
+						<div class="input input-select">
+							<input class="input__control dropdown-input" type="text" name="" value="Challenges" readonly>
+							<button class="input__btn dropdown-button"><img src="./img/svg/arrow.svg" alt="arrow"
+									class="input__btn-arrow"></button>
+							<ul class="dropdown-select">
+								<li class="dropdown-select__item">
+									<span>Challenges2</span>
+								</li>
+								<li class="dropdown-select__item">
+									<span>Challenges3</span>
+								</li>
+							</ul>
+						</div>
+						<div class="form__item">
+							<div class="checkbox">
+								<input id="accept" type="checkbox" name="agreement" class="checkbox__input">
+								<label for="accept" class="checkbox__label">
+									<p class="checkbox__label-text">I accept <a href="#" class="checkbox__label-link">privacy
+											policy</a>
+										and
+										<a href="#" class="checkbox__label-link"> user agreement</a>
+									</p>
+								</label>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="form__button button">Sign Up</button>
+
+
+					<div class="reviews__actions">
+						<div class="reviews__rating-group rating-group">
+							<div class="rating-group__items">
+								<input class="rating-group__item" type="radio" name="rating" value="5" id="5" /><label
+									class="rating-group__label" for="5"></label>
+								<input class="rating-group__item" type="radio" name="rating" value="4" id="4" /><label
+									class="rating-group__label" for="4"></label>
+								<input class="rating-group__item" type="radio" name="rating" value="3" id="3" checked /><label
+									class="rating-group__label" for="3"></label>
+								<input class="rating-group__item" type="radio" name="rating" value="2" id="2" /><label
+									class="rating-group__label" for="2"></label>
+								<input class="rating-group__item" type="radio" name="rating" value="1" id="1" /><label
+									class="rating-group__label" for="1"></label>
+
+							</div>
+						</div>
+						<button type="button" class="reviews__btn button">Leave review</button>
+					</div>
+				</div>
+		</form>
+	</div>
+</body>
+
+</html>

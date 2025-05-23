@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Main</title>
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body>
+
+	<div class="wrapper">
+		<header class="header animate">
+  <div class="header__container">
+    <a href="" class="header__logo"><img src="./img/logo.svg" alt="logo" /></a>
+    <div class="header__menu menu">
+      <nav class="menu__body">
+        <!-- <ul data-spollers="992,max" data-one-spoller class="menu__list">
+					<li class="menu__item">
+						<button data-spoller class="menu__link menu__link--btn">Products
+							<svg class="menu__arrow-icon">
+								<use xlink:href="img/sprite.svg#arrow"></use>
+							</svg>
+						</button>
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="#" class="menu__sub-link">link 1</a>
+							</li>
+							<li class="menu__sub-item">
+								<a href="#" class="menu__sub-link"> link 2</a>
+							</li>
+							<li class="menu__sub-item">
+								<a href="#" class="menu__sub-link">link 3</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<button data-spoller class="menu__link menu__link--btn">Features
+							<svg class="menu__arrow-icon">
+								<use xlink:href="img/sprite.svg#arrow"></use>
+							</svg>
+						</button>
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="#" class="menu__sub-link">link 1</a>
+							</li>
+							<li class="menu__sub-item">
+								<a href="#" class="menu__sub-link"> link 2</a>
+							</li>
+							<li class="menu__sub-item">
+								<a href="#" class="menu__sub-link">link 3</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<button data-spoller class="menu__link menu__link--btn">Resources
+							<svg class="menu__arrow-icon">
+								<use xlink:href="img/sprite.svg#arrow"></use>
+							</svg>
+						</button>
+						<ul class="menu__sub-list">
+							<li class="menu__sub-item">
+								<a href="#" class="menu__sub-link">link 1</a>
+							</li>
+							<li class="menu__sub-item">
+								<a href="#" class="menu__sub-link"> link 2</a>
+							</li>
+							<li class="menu__sub-item">
+								<a href="#" class="menu__sub-link">link 3</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a href="#" class="menu__link">Pricing</a>
+					</li>
+
+				</ul> -->
+      </nav>
+    </div>
+    <div class="header__profile profile dropdown-item">
+      <button class="profile__btn dropdown-btn" type="button">
+        <img class="profile__ava" src="./img/ava.svg" alt="ava" />
+        <span class="profile__name">David Milinear</span>
+        <img class="profile__arrow" src="./img/svg/arrow.svg" alt="arrow" />
+      </button>
+      <div class="profile__dropdown dropdown-account dropdown">
+        <ul class="dropdown-account__items">
+          <li class="dropdown-account__item">
+            <a href="#" class="dropdown-account__link">
+              <span class="dropdown-account__text">My Reviews</span>
+            </a>
+          </li>
+          <li class="dropdown-account__item">
+            <a href="#" class="dropdown-account__link">
+              <span class="dropdown-account__text">My Settings</span>
+            </a>
+          </li>
+          <li class="dropdown-account__item">
+            <a href="#" class="dropdown-account__link">
+              <span class="dropdown-account__text">My Account</span>
+            </a>
+          </li>
+          <li class="dropdown-account__item">
+            <a href="#" class="dropdown-account__link">
+              <span class="dropdown-account__text">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- <button type="button" class="icon-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button> -->
+  </div>
+</header>
+
+		<main class="page reviews">
+			<div class="reviews__container">
+				<nav class="reviews__breadcrumbs breadcrumbs">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__link" href="#">
+								<svg class="breadcrumbs__link-icon">
+									<use xlink:href="img/sprite.svg#home"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__link" href="#">Wallets</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<span class="breadcrumbs__current">Crypto Wallets</span>
+						</li>
+					</ul>
+				</nav>
+				<div class="reviews__header header-main">
+					<h1 class="header-main__title">Best in Crypto Wallets</h1>
+					<p class="header-main__text text">
+						Compare the best companies in this category</p>
+				</div>
+				<div class="reviews__body">
+					<div class="reviews__filter filter-reviews">
+						<div class="filter-reviews__items">
+							<div class="filter-reviews__item">
+								<div class="filter-reviews__item-title">
+									<div class="filter-reviews__item-body">
+										<div class="filter-reviews__rating options-filter">
+											<div class="options-filter__item">
+												<input id="any" type="radio" name="rating" class="ooptions-filter__input">
+												<label for="any" class="options-filter__label">Any</label>
+											</div>
+											<div class="options-filter__item">
+												<input id="3" type="radio" name="rating" class="ooptions-filter__input">
+												<label for="3" class="options-filter__label">3.0+</label>
+											</div>
+											<div class="options-filter__item">
+												<input id="4" type="radio" name="rating" class="ooptions-filter__input">
+												<label for="4" class="options-filter__label">4.0+</label>
+											</div>
+											<div class="options-filter__item">
+												<input id="5" type="radio" name="rating" class="ooptions-filter__input">
+												<label for="5" class="options-filter__label">5.0+</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</main>
+		<footer class="footer">
+
+	<div class="footer__container">
+		<div class="footer__info">
+			<a href="#" class="footer__logo"><img src="./img/logo.svg" alt="Logo"></a>
+			<p class="footer__text text">Sed ut perspiciatis undmnis is iste
+				natus error sit amet voluptatem
+				totam rem aperiam.
+			</p>
+			<a class="footer__tel" href="tel:+012 (345) 678 99">+012 (345) 678 99</a>
+		</div>
+		<div data-spollers="768,max" data-one-spoller class="footer__menu menu-footer">
+			<div class="menu-footer__column">
+				<button data-spoller type="button" class="menu-footer__title">Resources</button>
+				<ul class="menu-footer__list">
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Saas Development</a>
+					</li>
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Our Products</a>
+					</li>
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Our Products</a>
+					</li>
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link"> User Strategy</a>
+					</li>
+				</ul>
+			</div>
+			<div class="menu-footer__column">
+				<button data-spoller type="button" class="menu-footer__title">Company</button>
+				<ul class="menu-footer__list">
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">About Landio</a>
+					</li>
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link"> Contact & Support</a>
+					</li>
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Success History</a>
+					</li>
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link"> Setting & Privacy</a>
+					</li>
+				</ul>
+			</div>
+			<div class="menu-footer__column">
+				<button data-spoller type="button" class="menu-footer__title">Quick Links</button>
+				<ul class="menu-footer__list">
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Premium Support</a>
+					</li>
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Our Services</a>
+					</li>
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Know Our Team</a>
+					</li>
+					<li class="menu-footer__item">
+						<a href="#" class="menu-footer__link">Download App</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer__socials">
+			<div class="footer__socials-title">Follow Us On</div>
+			<div class="footer__socials-items">
+				<a href="#" class="footer__socials-item">
+					<svg class="footer__socials-icon">
+						<use xlink:href="img/sprite.svg#facebook"></use>
+					</svg>
+				</a>
+				<a href="#" class="footer__socials-item">
+					<svg class="footer__socials-icon">
+						<use xlink:href="img/sprite.svg#twitter"></use>
+					</svg>
+				</a>
+				<a href="#" class="footer__socials-item">
+					<svg class="footer__socials-icon">
+						<use xlink:href="img/sprite.svg#youtube"></use>
+					</svg>
+				</a>
+				<a href="#" class="footer__socials-item">
+					<svg class="footer__socials-icon">
+						<use xlink:href="img/sprite.svg#linkedin"></use>
+					</svg>
+				</a>
+			</div>
+			<p class="footer__copy text">© 2025 Approved.com </p>
+		</div>
+	</div>
+</footer>
+	</div>
+</body>
+
+</html>
