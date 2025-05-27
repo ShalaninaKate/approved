@@ -1,1011 +1,916 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./css/main-76b550f82d.css" />
+  </head>
 
-  <title>Main</title>
-  <link rel="stylesheet" href="css/main.css">
-
-
-  <script defer src="js/main.js"></script>
-</head>
-
-
-<body>
-
-	<div class="wrapper">
-		<header class="header animate">
-  <div class="header__container">
-    <a href="" class="header__logo"><img src="./img/logo.svg" alt="logo" /></a>
-    <div class="header__menu menu">
-      <nav class="menu__body">
-        <!-- <ul data-spollers="992,max" data-one-spoller class="menu__list">
-					<li class="menu__item">
-						<button data-spoller class="menu__link menu__link--btn">Products
-							<svg class="menu__arrow-icon">
-								<use xlink:href="img/sprite.svg#arrow"></use>
-							</svg>
-						</button>
-						<ul class="menu__sub-list">
-							<li class="menu__sub-item">
-								<a href="#" class="menu__sub-link">link 1</a>
-							</li>
-							<li class="menu__sub-item">
-								<a href="#" class="menu__sub-link"> link 2</a>
-							</li>
-							<li class="menu__sub-item">
-								<a href="#" class="menu__sub-link">link 3</a>
-							</li>
-						</ul>
-					</li>
-					<li class="menu__item">
-						<button data-spoller class="menu__link menu__link--btn">Features
-							<svg class="menu__arrow-icon">
-								<use xlink:href="img/sprite.svg#arrow"></use>
-							</svg>
-						</button>
-						<ul class="menu__sub-list">
-							<li class="menu__sub-item">
-								<a href="#" class="menu__sub-link">link 1</a>
-							</li>
-							<li class="menu__sub-item">
-								<a href="#" class="menu__sub-link"> link 2</a>
-							</li>
-							<li class="menu__sub-item">
-								<a href="#" class="menu__sub-link">link 3</a>
-							</li>
-						</ul>
-					</li>
-					<li class="menu__item">
-						<button data-spoller class="menu__link menu__link--btn">Resources
-							<svg class="menu__arrow-icon">
-								<use xlink:href="img/sprite.svg#arrow"></use>
-							</svg>
-						</button>
-						<ul class="menu__sub-list">
-							<li class="menu__sub-item">
-								<a href="#" class="menu__sub-link">link 1</a>
-							</li>
-							<li class="menu__sub-item">
-								<a href="#" class="menu__sub-link"> link 2</a>
-							</li>
-							<li class="menu__sub-item">
-								<a href="#" class="menu__sub-link">link 3</a>
-							</li>
-						</ul>
-					</li>
-					<li class="menu__item">
-						<a href="#" class="menu__link">Pricing</a>
-					</li>
-
-				</ul> -->
-      </nav>
+  <body>
+    <div class="preloader">
+      <svg class="preloader__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+        <rect fill="#4F5CFF" stroke="#4F5CFF" stroke-width="26" width="30" height="30" x="25" y="85">
+          <animate attributeName="opacity" calcMode="spline" dur="2.7" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate>
+        </rect>
+        <rect fill="#4F5CFF" stroke="#4F5CFF" stroke-width="26" width="30" height="30" x="85" y="85">
+          <animate attributeName="opacity" calcMode="spline" dur="2.7" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate>
+        </rect>
+        <rect fill="#4F5CFF" stroke="#4F5CFF" stroke-width="26" width="30" height="30" x="145" y="85">
+          <animate attributeName="opacity" calcMode="spline" dur="2.7" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate>
+        </rect>
+      </svg>
     </div>
-    <div class="header__profile profile dropdown-item">
-      <button class="profile__btn dropdown-btn" type="button">
-        <img class="profile__ava" src="./img/ava.svg" alt="ava" />
-        <span class="profile__name">David Milinear</span>
-        <img class="profile__arrow" src="./img/svg/arrow.svg" alt="arrow" />
-      </button>
-      <div class="profile__dropdown dropdown-account dropdown">
-        <ul class="dropdown-account__items">
-          <li class="dropdown-account__item">
-            <a href="#" class="dropdown-account__link">
-              <span class="dropdown-account__text">My Reviews</span>
-            </a>
-          </li>
-          <li class="dropdown-account__item">
-            <a href="#" class="dropdown-account__link">
-              <span class="dropdown-account__text">My Settings</span>
-            </a>
-          </li>
-          <li class="dropdown-account__item">
-            <a href="#" class="dropdown-account__link">
-              <span class="dropdown-account__text">My Account</span>
-            </a>
-          </li>
-          <li class="dropdown-account__item">
-            <a href="#" class="dropdown-account__link">
-              <span class="dropdown-account__text">Logout</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- <button type="button" class="icon-menu">
-			<span></span>
-			<span></span>
-			<span></span>
-		</button> -->
-  </div>
-</header>
-
-		<main class="main">
-			      <section class="hero">
-      	<div class="hero__container">
-      		<div class="hero__header header-main ">
-      			<span class="header-main__label ">Developed by XBANKING</span>
-      			<h1 class="header-main__title">Transform How You Collect Customer Feedback</h1>
-      			<p class="header-main__text text">
-      				Reviews that grow your store from your first sale to global scale.</p>
-      		</div>
-      		<form action="#" class="hero__search">
-      			<input class="hero__search-input" placeholder="Search company or categorie" type="search">
-      			<button class="hero__search-button button" type="button">
-      				<img src="./img/svg/search.svg" alt="loupe">
-      				<span>Search</span>
-      			</button>
-      		</form>
-      	</div>
-      </section>
-
-
-
-			<div class="statistics">
-	<div class="statistics__container">
-		<ul class="statistics__list">
-			<li class="statistics__item">
-				<span class="statistics__amount"><span data-digits-counter>5</span>M+</span>
-				<p class="statistics__text">Customers visit Omega every month to get their service done.</p>
-			</li>
-			<li class="statistics__item">
-				<span class="statistics__amount"><span data-digits-counter>92</span>%</span>
-				<p class="statistics__text">Satisfaction rate comes from our awesome customers.</p>
-			</li>
-			<li class="statistics__item">
-				<span class="statistics__amount"><span data-digits-counter>500</span>+</span>
-				<p class="statistics__text">Average Award we have got all
-					over internet.</p>
-			</li>
-		</ul>
-	</div>
-</div>
-			<section class="categories section-offset-top">
-  <div class="categories__container">
-    <h2 class="categories__title title animate">Choose Categories</h2>
-    <ul class="categories__list">
-      <li class="categories__item">
-        <a href="#" class="categories__link"></a>
-        <img
-          src="./img/categories/gambling.svg"
-          alt="gambling"
-          class="categories__icon"
-        />
-        <p class="categories__text">Gambling</p>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link"></a>
-        <img
-          src="./img/categories/nft-logo.svg"
-          alt="nft-logo"
-          class="categories__icon"
-        />
-        <p class="categories__text">NFT’s</p>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link"></a>
-        <img
-          src="./img/categories/wallets.svg"
-          alt="wallets"
-          class="categories__icon"
-        />
-        <p class="categories__text">Wallets</p>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link"></a>
-        <img
-          src="./img/categories/exchanges.svg"
-          alt="exchanges"
-          class="categories__icon"
-        />
-        <p class="categories__text">Exchanges</p>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link"></a>
-        <img
-          src="./img/categories/education.svg"
-          alt="education"
-          class="categories__icon"
-        />
-        <p class="categories__text">Education</p>
-      </li>
-      <li class="categories__item">
-        <a href="#" class="categories__link"></a>
-        <img
-          src="./img/categories/bitcoin.svg"
-          alt="bitcoin"
-          class="categories__icon"
-        />
-        <p class="categories__text">Crypto Coins</p>
-      </li>
-    </ul>
-  </div>
-</section>
-
-			<section class="best section-offset">
-  <div class="best__container">
-    <div class="best__row">
-      <div class="best__header">
-        <h2 class="best__title title animate">Best in Banking</h2>
-        <a href="#" class="best__more">See more</a>
-      </div>
-      <ul class="best__items">
-        <li class="best__item">
-          <a href="#" class="best__link">
-            <img src="./img/bests/majority.png" alt="" class="best__item-img" />
-            <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
-            <p class="best__item-info">majority.com</p>
-            <div class="best__item-rating rating">
-              <div class="rating__value">
-                <span class="rating__value-text">Rating:</span>
-                <span class="rating__value-count">3.0</span>
-              </div>
-              <div class="rating__items">
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-              </div>
-            </div>
+    <div class="wrapper">
+      <header class="header animate ">
+        <div class="header__container">
+          <a href="" class="header__logo">
+            <svg class="header__logo-icon">
+              <use xlink:href="/img/symbol/svg/sprite.symbol.svg#logo"></use>
+            </svg>
           </a>
-        </li>
-        <li class="best__item">
-          <a href="#" class="best__link">
-            <img src="./img/bests/majority.png" alt="" class="best__item-img" />
-            <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
-            <p class="best__item-info">majority.com</p>
-            <div class="best__item-rating rating">
-              <div class="rating__value">
-                <span class="rating__value-text">Rating:</span>
-                <span class="rating__value-count">3.0</span>
-              </div>
-              <div class="rating__items">
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-              </div>
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <!-- <ul data-spollers="992,max" data-one-spoller class="menu__list">
+                <li class="menu__item">
+                  <button data-spoller class="menu__link menu__link--btn">
+                    Products
+                    <svg class="menu__arrow-icon">
+                      <use xlink:href="img/sprite.svg#arrow"></use>
+                    </svg>
+                  </button>
+                  <ul class="menu__sub-list">
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">link 1</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link"> link 2</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">link 3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item">
+                  <button data-spoller class="menu__link menu__link--btn">
+                    Features
+                    <svg class="menu__arrow-icon">
+                      <use xlink:href="img/sprite.svg#arrow"></use>
+                    </svg>
+                  </button>
+                  <ul class="menu__sub-list">
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">link 1</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link"> link 2</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">link 3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item">
+                  <button data-spoller class="menu__link menu__link--btn">
+                    Resources
+                    <svg class="menu__arrow-icon">
+                      <use xlink:href="img/sprite.svg#arrow"></use>
+                    </svg>
+                  </button>
+                  <ul class="menu__sub-list">
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">link 1</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link"> link 2</a>
+                    </li>
+                    <li class="menu__sub-item">
+                      <a href="#" class="menu__sub-link">link 3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Pricing</a>
+                </li>
+              </ul> -->
+            </nav>
+          </div>
+          <div class="header__profile profile dropdown-item">
+            <button class="profile__btn dropdown-btn" type="button">
+              <picture><source srcset="../img/avatar.webp" type="image/webp"><img class="profile__ava" src="../img/avatar.png" alt="ava" /></picture>
+              <span class="profile__name">David Milinear</span>
+              <svg class="profile__arrow">
+                <use xlink:href="/img/symbol/svg/sprite.symbol.svg#arrow"></use>
+              </svg>
+            </button>
+            <div class="profile__dropdown dropdown-account dropdown">
+              <ul class="dropdown-account__items">
+                <li class="dropdown-account__item">
+                  <a href="#" class="dropdown-account__link">
+                    <span class="dropdown-account__text">My Reviews</span>
+                  </a>
+                </li>
+                <li class="dropdown-account__item">
+                  <a href="#" class="dropdown-account__link">
+                    <span class="dropdown-account__text">My Settings</span>
+                  </a>
+                </li>
+                <li class="dropdown-account__item">
+                  <a href="#" class="dropdown-account__link">
+                    <span class="dropdown-account__text">My Account</span>
+                  </a>
+                </li>
+                <li class="dropdown-account__item">
+                  <a href="#" class="dropdown-account__link">
+                    <span class="dropdown-account__text">Logout</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-          </a>
-        </li>
-        <li class="best__item">
-          <a href="#" class="best__link">
-            <img src="./img/bests/majority.png" alt="" class="best__item-img" />
-            <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
-            <p class="best__item-info">majority.com</p>
-            <div class="best__item-rating rating">
-              <div class="rating__value">
-                <span class="rating__value-text">Rating:</span>
-                <span class="rating__value-count">3.0</span>
-              </div>
-              <div class="rating__items">
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="best__row">
-      <div class="best__header">
-        <h2 class="best__title title animate">Best in Banking</h2>
-        <a href="#" class="best__more">See more</a>
-      </div>
-      <ul class="best__items">
-        <div class="skeleton-card" aria-hidden="true">
-          <img src="./img/skeleton-best.svg" alt="" />
+          </div>
+          <!-- <button type="button" class="icon-menu">
+      			<span></span>
+      			<span></span>
+      			<span></span>
+      		</button> -->
         </div>
-        <div class="skeleton-card" aria-hidden="true">
-          <img src="./img/skeleton-best.svg" alt="" />
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__container">
+            <div class="hero__header header-main">
+              <span class="header-main__label">Developed by XBANKING</span>
+              <h1 class="header-main__title"> Transform How You Collect Customer Feedback </h1>
+              <p class="header-main__text text"> Reviews that grow your store from your first sale to global scale. </p>
+            </div>
+            <form action="#" class="hero__search">
+              <input class="hero__search-input" placeholder="Search company or categorie" type="search" />
+              <button class="hero__search-button button" type="button">
+                <svg class="hero__search-button-icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#search"></use>
+                </svg>
+                <span>Search</span>
+              </button>
+            </form>
+          </div>
+        </section>
+        <div class="statistics">
+          <div class="statistics__container">
+            <ul class="statistics__list">
+              <li class="statistics__item">
+                <span class="statistics__amount"><span data-digits-counter>5</span>M+</span>
+                <p class="statistics__text"> Customers visit Omega every month to get their service done. </p>
+              </li>
+              <li class="statistics__item">
+                <span class="statistics__amount"><span data-digits-counter>92</span>%</span>
+                <p class="statistics__text"> Satisfaction rate comes from our awesome customers. </p>
+              </li>
+              <li class="statistics__item">
+                <span class="statistics__amount"><span data-digits-counter>500</span>+</span>
+                <p class="statistics__text"> Average Award we have got all over internet. </p>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="skeleton-card" aria-hidden="true">
-          <img src="./img/skeleton-best.svg" alt="" />
+        <section class="categories section-offset-top">
+          <div class="categories__container">
+            <h2 class="categories__title title animate">Choose Categories</h2>
+            <ul class="categories__list">
+              <li class="categories__item">
+                <a href="#" class="categories__link"></a>
+                <svg class="categories__icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#gambling"></use>
+                </svg>
+                <p class="categories__text">Gambling</p>
+              </li>
+              <li class="categories__item">
+                <a href="#" class="categories__link"></a>
+                <svg class="categories__icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#nft-logo"></use>
+                </svg>
+                <p class="categories__text">NFT’s</p>
+              </li>
+              <li class="categories__item">
+                <a href="#" class="categories__link"></a>
+                <svg class="categories__icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#wallets"></use>
+                </svg>
+                <p class="categories__text">Wallets</p>
+              </li>
+              <li class="categories__item">
+                <a href="#" class="categories__link"></a>
+                <svg class="categories__icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#exchanges"></use>
+                </svg>
+                <p class="categories__text">Exchanges</p>
+              </li>
+              <li class="categories__item">
+                <a href="#" class="categories__link"></a>
+                <svg class="categories__icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#education"></use>
+                </svg>
+                <p class="categories__text">Education</p>
+              </li>
+              <li class="categories__item">
+                <a href="#" class="categories__link"></a>
+                <svg class="categories__icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#bitcoin"></use>
+                </svg>
+                <p class="categories__text">Crypto Coins</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="best section-offset">
+          <div class="best__container">
+            <div class="best__row">
+              <div class="best__header">
+                <h2 class="best__title title animate">Best in Banking</h2>
+                <a href="#" class="best__more">See more</a>
+              </div>
+              <ul class="best__items">
+                <li class="best__item">
+                  <a href="#" class="best__link">
+                    <picture><source srcset="./img/bests/majority.webp" type="image/webp"><img src="./img/bests/majority.png" alt="" class="best__item-img" /></picture>
+                    <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
+                    <p class="best__item-info">majority.com</p>
+                    <div class="best__item-rating rating">
+                      <div class="rating__value">
+                        <span class="rating__value-text">Rating:</span>
+                        <span class="rating__value-count">3.0</span>
+                      </div>
+                      <div class="rating__items">
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="best__item">
+                  <a href="#" class="best__link">
+                    <picture><source srcset="./img/bests/majority.webp" type="image/webp"><img src="./img/bests/majority.png" alt="" class="best__item-img" /></picture>
+                    <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
+                    <p class="best__item-info">majority.com</p>
+                    <div class="best__item-rating rating">
+                      <div class="rating__value">
+                        <span class="rating__value-text">Rating:</span>
+                        <span class="rating__value-count">3.0</span>
+                      </div>
+                      <div class="rating__items">
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="best__item">
+                  <a href="#" class="best__link">
+                    <picture><source srcset="./img/bests/majority.webp" type="image/webp"><img src="./img/bests/majority.png" alt="" class="best__item-img" /></picture>
+                    <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
+                    <p class="best__item-info">majority.com</p>
+                    <div class="best__item-rating rating">
+                      <div class="rating__value">
+                        <span class="rating__value-text">Rating:</span>
+                        <span class="rating__value-count">3.0</span>
+                      </div>
+                      <div class="rating__items">
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="best__row">
+              <div class="best__header">
+                <h2 class="best__title title animate">Best in Banking</h2>
+                <a href="#" class="best__more">See more</a>
+              </div>
+              <ul class="best__items">
+                <div class="skeleton-card" aria-hidden="true">
+                  <img src="./img/svg/skeleton-best.svg" alt="" />
+                </div>
+                <div class="skeleton-card" aria-hidden="true">
+                  <img src="./img/svg/skeleton-best.svg" alt="" />
+                </div>
+                <div class="skeleton-card" aria-hidden="true">
+                  <img src="./img/svg/skeleton-best.svg" alt="" />
+                </div>
+              </ul>
+            </div>
+            <div class="best__row">
+              <div class="best__header">
+                <h2 class="best__title title animate">Best in DeFi</h2>
+                <a href="#" class="best__more">See more</a>
+              </div>
+              <ul class="best__items">
+                <li class="best__item">
+                  <a href="#" class="best__link">
+                    <picture><source srcset="./img/bests/majority.webp" type="image/webp"><img src="./img/bests/majority.png" alt="" class="best__item-img" /></picture>
+                    <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
+                    <p class="best__item-info">majority.com</p>
+                    <div class="best__item-rating rating">
+                      <div class="rating__value">
+                        <span class="rating__value-text">Rating:</span>
+                        <span class="rating__value-count">3.0</span>
+                      </div>
+                      <div class="rating__items">
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="best__item">
+                  <a href="#" class="best__link">
+                    <picture><source srcset="./img/bests/majority.webp" type="image/webp"><img src="./img/bests/majority.png" alt="" class="best__item-img" /></picture>
+                    <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
+                    <p class="best__item-info">majority.com</p>
+                    <div class="best__item-rating rating">
+                      <div class="rating__value">
+                        <span class="rating__value-text">Rating:</span>
+                        <span class="rating__value-count">3.0</span>
+                      </div>
+                      <div class="rating__items">
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="best__item">
+                  <a href="#" class="best__link">
+                    <picture><source srcset="./img/bests/majority.webp" type="image/webp"><img src="./img/bests/majority.png" alt="" class="best__item-img" /></picture>
+                    <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
+                    <p class="best__item-info">majority.com</p>
+                    <div class="best__item-rating rating">
+                      <div class="rating__value">
+                        <span class="rating__value-text">Rating:</span>
+                        <span class="rating__value-count">3.0</span>
+                      </div>
+                      <div class="rating__items">
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="best__row">
+              <div class="best__header">
+                <h2 class="best__title title animate">Best in NFT’s</h2>
+                <a href="#" class="best__more">See more</a>
+              </div>
+              <ul class="best__items">
+                <li class="best__item">
+                  <a href="#" class="best__link">
+                    <picture><source srcset="./img/bests/majority.webp" type="image/webp"><img src="./img/bests/majority.png" alt="" class="best__item-img" /></picture>
+                    <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
+                    <p class="best__item-info">majority.com</p>
+                    <div class="best__item-rating rating">
+                      <div class="rating__value">
+                        <span class="rating__value-text">Rating:</span>
+                        <span class="rating__value-count">3.0</span>
+                      </div>
+                      <div class="rating__items">
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="best__item">
+                  <a href="#" class="best__link">
+                    <picture><source srcset="./img/bests/majority.webp" type="image/webp"><img src="./img/bests/majority.png" alt="" class="best__item-img" /></picture>
+                    <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
+                    <p class="best__item-info">majority.com</p>
+                    <div class="best__item-rating rating">
+                      <div class="rating__value">
+                        <span class="rating__value-text">Rating:</span>
+                        <span class="rating__value-count">3.0</span>
+                      </div>
+                      <div class="rating__items">
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="best__item">
+                  <a href="#" class="best__link">
+                    <picture><source srcset="./img/bests/majority.webp" type="image/webp"><img src="./img/bests/majority.png" alt="" class="best__item-img" /></picture>
+                    <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
+                    <p class="best__item-info">majority.com</p>
+                    <div class="best__item-rating rating">
+                      <div class="rating__value">
+                        <span class="rating__value-text">Rating:</span>
+                        <span class="rating__value-count">3.0</span>
+                      </div>
+                      <div class="rating__items">
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon filled">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                        <span class="rating__item">
+                          <svg class="rating__item-icon">
+                            <use xlink:href="/img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="advantages section-offset-bottom">
+          <div class="advantages__container">
+            <div class="advantages__header text-block">
+              <span class="text-block__label animate">Our Benefits</span>
+              <h2 class="text-block__title animate">Why we are</h2>
+              <p class="text-block__text text animate"> There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form. </p>
+            </div>
+            <ul class="advantages__items">
+              <li class="advantages__item">
+                <div class="advantages__item-img">
+                  <svg class="advantages__item-icon">
+                    <use xlink:href="/img/symbol/svg/sprite.symbol.svg#pie-chart"></use>
+                  </svg>
+                </div>
+                <h3 class="advantages__item-title">Title 1</h3>
+                <p class="advantages__item-text text"> We dejoy working with disning clients, people for whom qualuty, service, integrity & aesthetics. </p>
+              </li>
+              <li class="advantages__item">
+                <div class="advantages__item-img">
+                  <svg class="advantages__item-icon">
+                    <use xlink:href="/img/symbol/svg/sprite.symbol.svg#tailwindcss"></use>
+                  </svg>
+                </div>
+                <h3 class="advantages__item-title">Title 2</h3>
+                <p class="advantages__item-text text"> We dejoy working with disning clients, people for whom qualuty, service, integrity & aesthetics. </p>
+              </li>
+              <li class="advantages__item">
+                <div class="advantages__item-img">
+                  <svg class="advantages__item-icon">
+                    <use xlink:href="/img/symbol/svg/sprite.symbol.svg#grid"></use>
+                  </svg>
+                </div>
+                <h3 class="advantages__item-title">Title 3</h3>
+                <p class="advantages__item-text text"> We dejoy working with disning clients, people for whom qualuty, service, integrity & aesthetics. </p>
+              </li>
+              <li class="advantages__item">
+                <div class="advantages__item-img">
+                  <svg class="advantages__item-icon">
+                    <use xlink:href="/img/symbol/svg/sprite.symbol.svg#dashboard"></use>
+                  </svg>
+                </div>
+                <h3 class="advantages__item-title">Title 4</h3>
+                <p class="advantages__item-text text"> We dejoy working with disning clients, people for whom qualuty, service, integrity & aesthetics. </p>
+              </li>
+              <li class="advantages__item">
+                <div class="advantages__item-img">
+                  <svg class="advantages__item-icon">
+                    <use xlink:href="/img/symbol/svg/sprite.symbol.svg#layers"></use>
+                  </svg>
+                </div>
+                <h3 class="advantages__item-title">Title 5</h3>
+                <p class="advantages__item-text text"> We dejoy working with disning clients, people for whom qualuty, service, integrity & aesthetics. </p>
+              </li>
+              <li class="advantages__item">
+                <div class="advantages__item-img">
+                  <svg class="advantages__item-icon">
+                    <use xlink:href="/img/symbol/svg/sprite.symbol.svg#reload"></use>
+                  </svg>
+                </div>
+                <h3 class="advantages__item-title">Title 6</h3>
+                <p class="advantages__item-text text"> We dejoy working with disning clients, people for whom qualuty, service, integrity & aesthetics. </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="purchase">
+          <div class="purchase__container">
+            <div class="purchase__body">
+              <div class="purchase__block">
+                <span class="purchase__label">Get Approved</span>
+                <h2 class="purchase__title">Getting more reviews starts today</h2>
+                <p class="purchase__text"> There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form ergeioriw. </p>
+                <a href="" class="purchase__link button button--white">Purchase Now</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news section-offset-top">
+          <div class="news__container">
+            <div class="news__header text-block">
+              <span class="text-block__label animate">Our Blogs</span>
+              <h2 class="text-block__title animate">Our Recent News</h2>
+              <p class="text-block__text text animate"> There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form. </p>
+            </div>
+            <ul class="news__items">
+              <li class="news__item">
+                <a href="#" class="news__link"></a>
+                <picture><source srcset="./img/news/01.webp" type="image/webp"><img loading="lazy" src="./img/news/01.png" class="news__item-img" width="" height="" alt="news" /></picture>
+                <div class="news__item-date">Dec 22, 2023</div>
+                <h3 class="news__item-title"> Meet AutoManage, the best AI management tools </h3>
+                <p class="news__item-text text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              </li>
+              <li class="news__item">
+                <a href="#" class="news__link"></a>
+                <picture><source srcset="./img/news/02.webp" type="image/webp"><img loading="lazy" src="./img/news/02.png" class="news__item-img" width="" height="" alt="news" /></picture>
+                <div class="news__item-date">Mar 15, 2023</div>
+                <h3 class="news__item-title"> How to earn more money as a wellness coach </h3>
+                <p class="news__item-text text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              </li>
+              <li class="news__item">
+                <a href="#" class="news__link"></a>
+                <picture><source srcset="./img/news/03.webp" type="image/webp"><img loading="lazy" src="./img/news/03.png" class="news__item-img" width="" height="" alt="new" /></picture>
+                <div class="news__item-date">Jan 05, 2023</div>
+                <h3 class="news__item-title"> The no-fuss guide to upselling and cross selling </h3>
+                <p class="news__item-text text"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="faq section-offset-bottom">
+          <div class="faq__container">
+            <div class="faq__header text-block">
+              <span class="text-block__label animate">FAQ</span>
+              <h2 class="text-block__title animate">Any Questions? Look Here</h2>
+              <p class="text-block__text text animate"> There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form. </p>
+            </div>
+            <div data-spollers data-one-spoller class="faq__spollers spollers-faq">
+              <ul class="spollers-faq__list">
+                <li class="spollers-faq__item">
+                  <button type="button" data-spoller data-spoller-close class="spollers-faq__title">
+                    <div class="spollers-faq__arrow">
+                      <svg class="spollers-faq__icon">
+                        <use xlink:href="/img/symbol/svg/sprite.symbol.svg#arrow-faq"></use>
+                      </svg>
+                    </div> How long we deliver your first blog post?
+                  </button>
+                  <div class="spollers-faq__body text"> It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available . </div>
+                </li>
+                <li class="spollers-faq__item">
+                  <button type="button" data-spoller data-spoller-close class="spollers-faq__title">
+                    <div class="spollers-faq__arrow">
+                      <svg class="spollers-faq__icon">
+                        <use xlink:href="/img/symbol/svg/sprite.symbol.svg#arrow-faq"></use>
+                      </svg>
+                    </div> How long we deliver your first blog post?
+                  </button>
+                  <div class="spollers-faq__body text"> It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available . </div>
+                </li>
+                <li class="spollers-faq__item">
+                  <button type="button" data-spoller data-spoller-close class="spollers-faq__title">
+                    <div class="spollers-faq__arrow">
+                      <svg class="spollers-faq__icon">
+                        <use xlink:href="/img/symbol/svg/sprite.symbol.svg#arrow-faq"></use>
+                      </svg>
+                    </div> How long we deliver your first blog post?
+                  </button>
+                  <div class="spollers-faq__body text"> It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available . </div>
+                </li>
+              </ul>
+              <ul class="spollers-faq__list">
+                <li class="spollers-faq__item">
+                  <button type="button" data-spoller data-spoller-close class="spollers-faq__title">
+                    <div class="spollers-faq__arrow">
+                      <svg class="spollers-faq__icon">
+                        <use xlink:href="/img/symbol/svg/sprite.symbol.svg#arrow-faq"></use>
+                      </svg>
+                    </div> How long we deliver your first blog post? How long we deliver your first blog post?
+                  </button>
+                  <div class="spollers-faq__body text"> It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available . </div>
+                </li>
+                <li class="spollers-faq__item">
+                  <button type="button" data-spoller data-spoller-close class="spollers-faq__title">
+                    <div class="spollers-faq__arrow">
+                      <svg class="spollers-faq__icon">
+                        <use xlink:href="/img/symbol/svg/sprite.symbol.svg#arrow-faq"></use>
+                      </svg>
+                    </div> How long we deliver your first blog post?
+                  </button>
+                  <div class="spollers-faq__body text"> It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available . </div>
+                </li>
+                <li class="spollers-faq__item">
+                  <button type="button" data-spoller data-spoller-close class="spollers-faq__title">
+                    <div class="spollers-faq__arrow">
+                      <svg class="spollers-faq__icon">
+                        <use xlink:href="/img/symbol/svg/sprite.symbol.svg#arrow-faq"></use>
+                      </svg>
+                    </div> How long we deliver your first blog post?
+                  </button>
+                  <div class="spollers-faq__body text"> It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available . </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__info">
+            <a href="#" class="footer__logo">
+              <svg class="footer__logo-icon">
+                <use xlink:href="/img/symbol/svg/sprite.symbol.svg#logo"></use>
+              </svg>
+            </a>
+            <p class="footer__text text"> Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem totam rem aperiam. </p>
+            <a class="footer__tel" href="tel:+012 (345) 678 99">+012 (345) 678 99</a>
+          </div>
+          <div data-spollers="768,max" data-one-spoller class="footer__menu menu-footer">
+            <div class="menu-footer__column">
+              <button data-spoller type="button" class="menu-footer__title"> Resources </button>
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Saas Development</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Our Products</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Our Products</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link"> User Strategy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-footer__column">
+              <button data-spoller type="button" class="menu-footer__title"> Company </button>
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">About Landio</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link"> Contact & Support</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Success History</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link"> Setting & Privacy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-footer__column">
+              <button data-spoller type="button" class="menu-footer__title"> Quick Links </button>
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Premium Support</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Our Services</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Know Our Team</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Download App</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__socials">
+            <div class="footer__socials-title">Follow Us On</div>
+            <div class="footer__socials-items">
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#facebook"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#youtube"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="/img/symbol/svg/sprite.symbol.svg#linkedin"></use>
+                </svg>
+              </a>
+            </div>
+            <p class="footer__copy text">© 2025 Approved.com</p>
+          </div>
         </div>
-      </ul>
+      </footer>
     </div>
-    <div class="best__row">
-      <div class="best__header">
-        <h2 class="best__title title animate">Best in DeFi</h2>
-        <a href="#" class="best__more">See more</a>
-      </div>
-      <ul class="best__items">
-        <li class="best__item">
-          <a href="#" class="best__link">
-            <img src="./img/bests/majority.png" alt="" class="best__item-img" />
-            <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
-            <p class="best__item-info">majority.com</p>
-            <div class="best__item-rating rating">
-              <div class="rating__value">
-                <span class="rating__value-text">Rating:</span>
-                <span class="rating__value-count">3.0</span>
-              </div>
-              <div class="rating__items">
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="best__item">
-          <a href="#" class="best__link">
-            <img src="./img/bests/majority.png" alt="" class="best__item-img" />
-            <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
-            <p class="best__item-info">majority.com</p>
-            <div class="best__item-rating rating">
-              <div class="rating__value">
-                <span class="rating__value-text">Rating:</span>
-                <span class="rating__value-count">3.0</span>
-              </div>
-              <div class="rating__items">
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="best__item">
-          <a href="#" class="best__link">
-            <img src="./img/bests/majority.png" alt="" class="best__item-img" />
-            <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
-            <p class="best__item-info">majority.com</p>
-            <div class="best__item-rating rating">
-              <div class="rating__value">
-                <span class="rating__value-text">Rating:</span>
-                <span class="rating__value-count">3.0</span>
-              </div>
-              <div class="rating__items">
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="best__row">
-      <div class="best__header">
-        <h2 class="best__title title animate">Best in NFT’s</h2>
-        <a href="#" class="best__more">See more</a>
-      </div>
-      <ul class="best__items">
-        <li class="best__item">
-          <a href="#" class="best__link">
-            <img src="./img/bests/majority.png" alt="" class="best__item-img" />
-            <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
-            <p class="best__item-info">majority.com</p>
-            <div class="best__item-rating rating">
-              <div class="rating__value">
-                <span class="rating__value-text">Rating:</span>
-                <span class="rating__value-count">3.0</span>
-              </div>
-              <div class="rating__items">
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="best__item">
-          <a href="#" class="best__link">
-            <img src="./img/bests/majority.png" alt="" class="best__item-img" />
-            <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
-            <p class="best__item-info">majority.com</p>
-            <div class="best__item-rating rating">
-              <div class="rating__value">
-                <span class="rating__value-text">Rating:</span>
-                <span class="rating__value-count">3.0</span>
-              </div>
-              <div class="rating__items">
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="best__item">
-          <a href="#" class="best__link">
-            <img src="./img/bests/majority.png" alt="" class="best__item-img" />
-            <h3 class="best__item-title">MAJORITY - Mobile Banking</h3>
-            <p class="best__item-info">majority.com</p>
-            <div class="best__item-rating rating">
-              <div class="rating__value">
-                <span class="rating__value-text">Rating:</span>
-                <span class="rating__value-count">3.0</span>
-              </div>
-              <div class="rating__items">
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon filled">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-                <span class="rating__item">
-                  <svg class="rating__item-icon">
-                    <use xlink:href="img/sprite.svg#star-fill"></use>
-                  </svg>
-                </span>
-              </div>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-			<section class="advantages section-offset-bottom">
-	<div class="advantages__container">
-		<div class="advantages__header text-block">
-			<span class="text-block__label animate">Our Benefits</span>
-			<h2 class="text-block__title animate">Why we are</h2>
-			<p class="text-block__text text animate">
-				There are many variations of passages of Lorem Ipsum available
-				but the majority have suffered alteration in some form.</p>
-		</div>
-		<ul class="advantages__items">
-			<li class="advantages__item">
-				<div class="advantages__item-img">
-					<img class="advantages__item-icon" src="./img/advantages/01.svg" alt="icon">
-				</div>
-				<h3 class="advantages__item-title">Title 1</h3>
-				<p class="advantages__item-text text">We dejoy working with disning clients, people for whom qualuty, service,
-					integrity &
-					aesthetics.</p>
-			</li>
-			<li class="advantages__item">
-				<div class="advantages__item-img">
-					<img class="advantages__item-icon" src="./img/advantages/02.svg" alt="icon">
-				</div>
-				<h3 class="advantages__item-title">Title 2</h3>
-				<p class="advantages__item-text text">We dejoy working with disning clients, people for whom qualuty, service,
-					integrity &
-					aesthetics.</p>
-			</li>
-			<li class="advantages__item">
-				<div class="advantages__item-img">
-					<img class="advantages__item-icon" src="./img/advantages/03.svg" alt="icon">
-				</div>
-				<h3 class="advantages__item-title">Title 3</h3>
-				<p class="advantages__item-text text">We dejoy working with disning clients, people for whom qualuty, service,
-					integrity &
-					aesthetics.</p>
-			</li>
-			<li class="advantages__item">
-				<div class="advantages__item-img">
-					<img class="advantages__item-icon" src="./img/advantages/04.svg" alt="icon">
-				</div>
-				<h3 class="advantages__item-title">Title 4</h3>
-				<p class="advantages__item-text text">We dejoy working with disning clients, people for whom qualuty, service,
-					integrity &
-					aesthetics.</p>
-			</li>
-			<li class="advantages__item">
-				<div class="advantages__item-img">
-					<img class="advantages__item-icon" src="./img/advantages/05.svg" alt="icon">
-				</div>
-				<h3 class="advantages__item-title">Title 5</h3>
-				<p class="advantages__item-text text">We dejoy working with disning clients, people for whom qualuty, service,
-					integrity &
-					aesthetics.</p>
-			</li>
-			<li class="advantages__item">
-				<div class="advantages__item-img">
-					<img class="advantages__item-icon" src="./img/advantages/06.svg" alt="icon">
-				</div>
-				<h3 class="advantages__item-title">Title 6</h3>
-				<p class="advantages__item-text text">We dejoy working with disning clients, people for whom qualuty, service,
-					integrity &
-					aesthetics.</p>
-			</li>
-		</ul>
-	</div>
-
-
-</section>
-			<section class="purchase ">
-
-	<div class="purchase__container">
-		<div class="purchase__body">
-			<div class="purchase__block">
-				<span class="purchase__label">Get Approved</span>
-				<h2 class="purchase__title">Getting more reviews
-					starts today</h2>
-				<p class="purchase__text">There are many variations of passages of Lorem Ipsum available
-					but the majority have suffered alteration in some form ergeioriw.</p>
-				<a href="" class="purchase__link button button--white">Purchase Now</a>
-			</div>
-
-		</div>
-
-	</div>
-</section>
-			<section class="news section-offset-top">
-	<div class="news__container">
-		<div class="news__header text-block">
-			<span class="text-block__label animate">Our Blogs</span>
-			<h2 class="text-block__title animate">Our Recent News</h2>
-			<p class="text-block__text text animate">
-				There are many variations of passages of Lorem Ipsum available
-				but the majority have suffered alteration in some form.</p>
-		</div>
-		<ul class="news__items">
-			<li class="news__item">
-				<a href="#" class="news__link"></a>
-				<picture>
-					<source srcset="./img/news/01.webp" type="image/webp">
-					<img loading="lazy" src="./img/news/01.png" class="news__item-img" width="" height="" alt="news">
-				</picture>
-				<div class="news__item-date">Dec 22, 2023</div>
-				<h3 class="news__item-title">Meet AutoManage, the best AI management tools</h3>
-				<p class="news__item-text text">Lorem Ipsum is simply dummy text of the printing and typesetting
-					industry.</p>
-			</li>
-			<li class="news__item">
-				<a href="#" class="news__link"></a>
-				<picture>
-					<source srcset="./img/news/02.webp" type="image/webp">
-					<img loading="lazy" src="./img/news/02.png" class="news__item-img" width="" height="" alt="news">
-				</picture>
-				<div class="news__item-date">Mar 15, 2023</div>
-				<h3 class="news__item-title">How to earn more money as a wellness coach</h3>
-				<p class="news__item-text text">Lorem Ipsum is simply dummy text of the printing and typesetting
-					industry.</p>
-			</li>
-			<li class="news__item">
-				<a href="#" class="news__link"></a>
-				<picture>
-					<source srcset="./img/news/03.webp" type="image/webp">
-					<img loading="lazy" src="./img/news/03.png" class="news__item-img" width="" height="" alt="new">
-				</picture>
-				<div class="news__item-date">Jan 05, 2023</div>
-				<h3 class="news__item-title">The no-fuss guide to upselling and cross selling</h3>
-				<p class="news__item-text text">Lorem Ipsum is simply dummy text of the printing and typesetting
-					industry.</p>
-			</li>
-		</ul>
-	</div>
-
-
-</section>
-			<section class="faq section-offset-bottom">
-  <div class="faq__container">
-    <div class="faq__header text-block">
-      <span class="text-block__label animate">FAQ</span>
-      <h2 class="text-block__title animate">Any Questions? Look Here</h2>
-      <p class="text-block__text text animate">
-        There are many variations of passages of Lorem Ipsum available but the
-        majority have suffered alteration in some form.
-      </p>
-    </div>
-    <div data-spollers data-one-spoller class="faq__spollers spollers-faq">
-      <ul class="spollers-faq__list">
-        <li class="spollers-faq__item">
-          <button
-            type="button"
-            data-spoller
-            data-spoller-close
-            class="spollers-faq__title"
-          >
-            <div class="spollers-faq__arrow">
-              <svg class="spollers-faq__icon">
-                <use xlink:href="img/sprite.svg#arrow-faq"></use>
-              </svg>
-            </div>
-            How long we deliver your first blog post?
-          </button>
-          <div class="spollers-faq__body text">
-            It takes 2-3 weeks to get your first blog post ready. That includes
-            the in-depth research & creation of your monthly content marketing
-            strategy that we do before writing your first blog post, Ipsum
-            available .
-          </div>
-        </li>
-        <li class="spollers-faq__item">
-          <button
-            type="button"
-            data-spoller
-            data-spoller-close
-            class="spollers-faq__title"
-          >
-            <div class="spollers-faq__arrow">
-              <svg class="spollers-faq__icon">
-                <use xlink:href="img/sprite.svg#arrow-faq"></use>
-              </svg>
-            </div>
-            How long we deliver your first blog post?
-          </button>
-          <div class="spollers-faq__body text">
-            It takes 2-3 weeks to get your first blog post ready. That includes
-            the in-depth research & creation of your monthly content marketing
-            strategy that we do before writing your first blog post, Ipsum
-            available .
-          </div>
-        </li>
-        <li class="spollers-faq__item">
-          <button
-            type="button"
-            data-spoller
-            data-spoller-close
-            class="spollers-faq__title"
-          >
-            <div class="spollers-faq__arrow">
-              <svg class="spollers-faq__icon">
-                <use xlink:href="img/sprite.svg#arrow-faq"></use>
-              </svg>
-            </div>
-            How long we deliver your first blog post?
-          </button>
-          <div class="spollers-faq__body text">
-            It takes 2-3 weeks to get your first blog post ready. That includes
-            the in-depth research & creation of your monthly content marketing
-            strategy that we do before writing your first blog post, Ipsum
-            available .
-          </div>
-        </li>
-      </ul>
-      <ul class="spollers-faq__list">
-        <li class="spollers-faq__item">
-          <button
-            type="button"
-            data-spoller
-            data-spoller-close
-            class="spollers-faq__title"
-          >
-            <div class="spollers-faq__arrow">
-              <svg class="spollers-faq__icon">
-                <use xlink:href="img/sprite.svg#arrow-faq"></use>
-              </svg>
-            </div>
-            How long we deliver your first blog post? How long we deliver your
-            first blog post?
-          </button>
-          <div class="spollers-faq__body text">
-            It takes 2-3 weeks to get your first blog post ready. That includes
-            the in-depth research & creation of your monthly content marketing
-            strategy that we do before writing your first blog post, Ipsum
-            available .
-          </div>
-        </li>
-        <li class="spollers-faq__item">
-          <button
-            type="button"
-            data-spoller
-            data-spoller-close
-            class="spollers-faq__title"
-          >
-            <div class="spollers-faq__arrow">
-              <svg class="spollers-faq__icon">
-                <use xlink:href="img/sprite.svg#arrow-faq"></use>
-              </svg>
-            </div>
-            How long we deliver your first blog post?
-          </button>
-          <div class="spollers-faq__body text">
-            It takes 2-3 weeks to get your first blog post ready. That includes
-            the in-depth research & creation of your monthly content marketing
-            strategy that we do before writing your first blog post, Ipsum
-            available .
-          </div>
-        </li>
-        <li class="spollers-faq__item">
-          <button
-            type="button"
-            data-spoller
-            data-spoller-close
-            class="spollers-faq__title"
-          >
-            <div class="spollers-faq__arrow">
-              <svg class="spollers-faq__icon">
-                <use xlink:href="img/sprite.svg#arrow-faq"></use>
-              </svg>
-            </div>
-            How long we deliver your first blog post?
-          </button>
-          <div class="spollers-faq__body text">
-            It takes 2-3 weeks to get your first blog post ready. That includes
-            the in-depth research & creation of your monthly content marketing
-            strategy that we do before writing your first blog post, Ipsum
-            available .
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-		</main>
-		<footer class="footer">
-
-	<div class="footer__container">
-		<div class="footer__info">
-			<a href="#" class="footer__logo"><img src="./img/logo.svg" alt="Logo"></a>
-			<p class="footer__text text">Sed ut perspiciatis undmnis is iste
-				natus error sit amet voluptatem
-				totam rem aperiam.
-			</p>
-			<a class="footer__tel" href="tel:+012 (345) 678 99">+012 (345) 678 99</a>
-		</div>
-		<div data-spollers="768,max" data-one-spoller class="footer__menu menu-footer">
-			<div class="menu-footer__column">
-				<button data-spoller type="button" class="menu-footer__title">Resources</button>
-				<ul class="menu-footer__list">
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link">Saas Development</a>
-					</li>
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link">Our Products</a>
-					</li>
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link">Our Products</a>
-					</li>
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link"> User Strategy</a>
-					</li>
-				</ul>
-			</div>
-			<div class="menu-footer__column">
-				<button data-spoller type="button" class="menu-footer__title">Company</button>
-				<ul class="menu-footer__list">
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link">About Landio</a>
-					</li>
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link"> Contact & Support</a>
-					</li>
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link">Success History</a>
-					</li>
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link"> Setting & Privacy</a>
-					</li>
-				</ul>
-			</div>
-			<div class="menu-footer__column">
-				<button data-spoller type="button" class="menu-footer__title">Quick Links</button>
-				<ul class="menu-footer__list">
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link">Premium Support</a>
-					</li>
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link">Our Services</a>
-					</li>
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link">Know Our Team</a>
-					</li>
-					<li class="menu-footer__item">
-						<a href="#" class="menu-footer__link">Download App</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="footer__socials">
-			<div class="footer__socials-title">Follow Us On</div>
-			<div class="footer__socials-items">
-				<a href="#" class="footer__socials-item">
-					<svg class="footer__socials-icon">
-						<use xlink:href="img/sprite.svg#facebook"></use>
-					</svg>
-				</a>
-				<a href="#" class="footer__socials-item">
-					<svg class="footer__socials-icon">
-						<use xlink:href="img/sprite.svg#twitter"></use>
-					</svg>
-				</a>
-				<a href="#" class="footer__socials-item">
-					<svg class="footer__socials-icon">
-						<use xlink:href="img/sprite.svg#youtube"></use>
-					</svg>
-				</a>
-				<a href="#" class="footer__socials-item">
-					<svg class="footer__socials-icon">
-						<use xlink:href="img/sprite.svg#linkedin"></use>
-					</svg>
-				</a>
-			</div>
-			<p class="footer__copy text">© 2025 Approved.com </p>
-		</div>
-	</div>
-</footer>
-	</div>
-</body>
+    <link rel="stylesheet" href="./css/icons-640cbc1880.css" />
+    <link rel="stylesheet" href="./css/second-a296567338.css" />
+    <script type="text/javascript" src="./js/all-20e8f53b59.js"></script>
+  </body>
 
 </html>
