@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modals</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./css/main-047e267a09.css" />
+  </head>
+
+  <body>
+    <div class="rootpage">
+      <div class="container-modal">
+        <div class="buttons">
+          <button class="button" data-path="write_review" data-animation="fadeInUp"> Write review </button>
+          <div class="modal">
+            <!-- Write review -->
+            <div class="modal__container" role="dialog" aria-modal="true" data-target="write_review">
+              <button type="button" class="modal__close js-modal-close" aria-label="close modal">
+                <svg class="modal__close-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#close"></use>
+                </svg>
+              </button>
+              <div class="write-review">
+                <div class="write-review__header">
+                  <picture><source srcset="img/xb-logo.webp" type="image/webp"><img class="write-review__logo" src="img/xb-logo.png" alt="logo-company" /></picture>
+                  <div class="write-review__company">
+                    <div class="write-review__name">XBANKING</div>
+                    <a href="#" class="write-review__address">xbanking.com</a>
+                  </div>
+                </div>
+                <form action="#" class="write-review__form form">
+                  <div class="write-review__items form__items">
+                    <div class="form__item">
+                      <label class="form__label">Click on star to review</label>
+                      <div class="write-review__rating-group rating-group">
+                        <div class="rating-group__items">
+                          <input class="rating-group__item" type="radio" name="rating" value="5" id="5" /><label class="rating-group__label" for="5"></label>
+                          <input class="rating-group__item" type="radio" name="rating" value="4" id="4" checked /><label class="rating-group__label" for="4"></label>
+                          <input class="rating-group__item" type="radio" name="rating" value="3" id="3" /><label class="rating-group__label" for="3"></label>
+                          <input class="rating-group__item" type="radio" name="rating" value="2" id="2" /><label class="rating-group__label" for="2"></label>
+                          <input class="rating-group__item" type="radio" name="rating" value="1" id="1" /><label class="rating-group__label" for="1"></label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form__item">
+                      <label class="form__label">Give your review a title</label>
+                      <div class="input">
+                        <input class="input__control" type="text" name="" value="" placeholder="What is important for people to know?" />
+                      </div>
+                    </div>
+                    <div class="form__item">
+                      <label class="form__label">Date of experience</label>
+                      <div class="input dropdown-item">
+                        <input class="input__control" type="text" name="" value="" placeholder="DD.MM.YYYY" readonly />
+                        <button class="input__btn dropdown-btn">
+                          <img src="img/svg/calendar.svg" alt="calendar" class="input__btn-calendar" />
+                        </button>
+                        <div class="dropdown-calendar dropdown"></div>
+                      </div>
+                    </div>
+                    <div class="form__item">
+                      <label class="form__label">Tell us more about your experience</label>
+                      <div class="input">
+                        <textarea class="input__control input__control--textarea" placeholder="What made your experience great? What is this company doing well?"></textarea>
+                        <div class="input__counter textarea-counter">
+                          <span id="charCount">0</span>/500
+                        </div>
+                      </div>
+                      <div class="write-review__info"> By submitting this review, you confirm it's <span>based on a genuine experience</span> and you haven't received an incentive to write it. </div>
+                    </div>
+                  </div>
+                  <button type="button" class="form__button button">Submit Review</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <link rel="stylesheet" href="./css/icons-640cbc1880.css" />
+  <link rel="stylesheet" href="./css/second-73c8fe3ce5.css" />
+  <script type="text/javascript" src="./js/all-270da0d857.js"></script>
+
+</html>

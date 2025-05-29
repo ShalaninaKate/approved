@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categorie Reviews</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./css/main-047e267a09.css" />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <svg class="preloader__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+        <rect fill="#4F5CFF" stroke="#4F5CFF" stroke-width="26" width="30" height="30" x="25" y="85">
+          <animate attributeName="opacity" calcMode="spline" dur="2.7" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate>
+        </rect>
+        <rect fill="#4F5CFF" stroke="#4F5CFF" stroke-width="26" width="30" height="30" x="85" y="85">
+          <animate attributeName="opacity" calcMode="spline" dur="2.7" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate>
+        </rect>
+        <rect fill="#4F5CFF" stroke="#4F5CFF" stroke-width="26" width="30" height="30" x="145" y="85">
+          <animate attributeName="opacity" calcMode="spline" dur="2.7" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate>
+        </rect>
+      </svg>
+    </div>
+    <div class="wrapper">
+      <div class="page-top">
+        <header class="header animate header--page">
+          <div class="header__container">
+            <a href="" class="header__logo">
+              <svg class="header__logo-icon">
+                <use xlink:href="img/symbol/svg/sprite.symbol.svg#logo"></use>
+              </svg>
+            </a>
+            <div class="header__menu menu">
+              <nav class="menu__body">
+                <!-- <ul data-spollers="992,max" data-one-spoller class="menu__list">
+                  <li class="menu__item">
+                    <button data-spoller class="menu__link menu__link--btn">
+                      Products
+                      <svg class="menu__arrow-icon">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                    <ul class="menu__sub-list">
+                      <li class="menu__sub-item">
+                        <a href="#" class="menu__sub-link">link 1</a>
+                      </li>
+                      <li class="menu__sub-item">
+                        <a href="#" class="menu__sub-link"> link 2</a>
+                      </li>
+                      <li class="menu__sub-item">
+                        <a href="#" class="menu__sub-link">link 3</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu__item">
+                    <button data-spoller class="menu__link menu__link--btn">
+                      Features
+                      <svg class="menu__arrow-icon">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                    <ul class="menu__sub-list">
+                      <li class="menu__sub-item">
+                        <a href="#" class="menu__sub-link">link 1</a>
+                      </li>
+                      <li class="menu__sub-item">
+                        <a href="#" class="menu__sub-link"> link 2</a>
+                      </li>
+                      <li class="menu__sub-item">
+                        <a href="#" class="menu__sub-link">link 3</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu__item">
+                    <button data-spoller class="menu__link menu__link--btn">
+                      Resources
+                      <svg class="menu__arrow-icon">
+                        <use xlink:href="img/sprite.svg#arrow"></use>
+                      </svg>
+                    </button>
+                    <ul class="menu__sub-list">
+                      <li class="menu__sub-item">
+                        <a href="#" class="menu__sub-link">link 1</a>
+                      </li>
+                      <li class="menu__sub-item">
+                        <a href="#" class="menu__sub-link"> link 2</a>
+                      </li>
+                      <li class="menu__sub-item">
+                        <a href="#" class="menu__sub-link">link 3</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" class="menu__link">Pricing</a>
+                  </li>
+                </ul> -->
+              </nav>
+            </div>
+            <div class="header__profile profile dropdown-item">
+              <button class="profile__btn dropdown-btn" type="button">
+                <picture><source srcset="img/avatar.webp" type="image/webp"><img class="profile__ava" src="img/avatar.png" alt="ava" /></picture>
+                <span class="profile__name">David Milinear</span>
+                <svg class="profile__arrow">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                </svg>
+              </button>
+              <div class="profile__dropdown dropdown-account dropdown">
+                <ul class="dropdown-account__items">
+                  <li class="dropdown-account__item">
+                    <a href="#" class="dropdown-account__link">
+                      <span class="dropdown-account__text">My Reviews</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-account__item">
+                    <a href="#" class="dropdown-account__link">
+                      <span class="dropdown-account__text">My Settings</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-account__item">
+                    <a href="#" class="dropdown-account__link">
+                      <span class="dropdown-account__text">My Account</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-account__item">
+                    <a href="#" class="dropdown-account__link">
+                      <span class="dropdown-account__text">Logout</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- <button type="button" class="icon-menu">
+        			<span></span>
+        			<span></span>
+        			<span></span>
+        		</button> -->
+          </div>
+        </header>
+        <div class="page-top__container">
+          <nav class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">
+                  <svg class="breadcrumbs__link-icon">
+                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#home"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="#">Wallets</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <span class="breadcrumbs__current">Crypto Wallets</span>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-main header-main--page">
+            <h1 class="header-main__title">Best in Crypto Wallets</h1>
+            <p class="header-main__text text">Compare the best companies in this category</p>
+          </div>
+        </div>
+      </div>
+      <main class="page">
+        <div class="reviews-categories">
+          <div class="reviews-categories__container">
+            <div class="reviews-categories__filter">
+              <div class="filter-overlay"></div>
+              <div class="filter-reviews">
+                <button class="filter-reviews__close filters-close">
+                  <svg class="filter-reviews__close-icon">
+                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#close"></use>
+                  </svg>
+                </button>
+                <div class="filter-reviews__items">
+                  <div class="filter-reviews__item">
+                    <div class="filter-reviews__item-title">Rating</div>
+                    <div class="filter-reviews__item-body">
+                      <div class="filter-reviews__rating options">
+                        <div class="options__item">
+                          <input id="any" type="radio" name="rating" class="options__input" />
+                          <label for="any" class="options__label">Any</label>
+                        </div>
+                        <div class="options__item">
+                          <input id="3" type="radio" name="rating" class="options__input" />
+                          <label for="3" class="options__label">3.0+</label>
+                        </div>
+                        <div class="options__item">
+                          <input id="4" type="radio" name="rating" class="options__input" checked="" />
+                          <label for="4" class="options__label">4.0+</label>
+                        </div>
+                        <div class="options__item">
+                          <input id="5" type="radio" name="rating" class="options__input" checked="" />
+                          <label for="5" class="options__label">5.0+</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filter-reviews__item">
+                    <div class="filter-reviews__item-title">Related categories</div>
+                    <div class="filter-reviews__item-body">
+                      <ul class="categories-filter">
+                        <li class="categories-filter__item">
+                          <a href="#" class="categories-filter__link"></a>
+                          <span class="categories-filter__text">Animal Parks &amp; Zoo</span>
+                          <div class="categories-filter__amount">37</div>
+                        </li>
+                        <li class="categories-filter__item">
+                          <a href="#" class="categories-filter__link"></a>
+                          <span class="categories-filter__text">Cats &amp; Dogs</span>
+                          <div class="categories-filter__amount">431</div>
+                        </li>
+                        <li class="categories-filter__item">
+                          <a href="#" class="categories-filter__link"></a>
+                          <span class="categories-filter__text">Horses &amp; Riding</span>
+                          <div class="categories-filter__amount">160</div>
+                        </li>
+                        <li class="categories-filter__item">
+                          <a href="#" class="categories-filter__link"></a>
+                          <span class="categories-filter__text">Pet Services dxfkdshff</span>
+                          <div class="categories-filter__amount">1 987</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-categories__body">
+              <div class="reviews-categories__header">
+                <div class="reviews-categories__header-results"> 1-20 of 267 results </div>
+                <div class="reviews-categories__header-filters">
+                  <button class="reviews-categories__header-filters-open filters-open button" type="button"> Filter by </button>
+                  <div class="reviews-categories__header-select">
+                    <div class="input input-select">
+                      <input class="input__control input__control--select dropdown-input" type="text" name="" value="Most Relevant" readonly />
+                      <button class="input__btn dropdown-button">
+                        <img src="img/svg/arrow.svg" alt="arrow" class="input__btn-arrow" />
+                      </button>
+                      <ul class="dropdown-select">
+                        <li class="dropdown-select__item">
+                          <span>Highest number of reviews</span>
+                        </li>
+                        <li class="dropdown-select__item">
+                          <span>Most recent reviews</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul data-spollers class="reviews-categories__items">
+                <li class="block-company">
+                  <a href="#" class="block-company__link link">
+                    <picture><source srcset="img/reviews/logo.webp" type="image/webp"><img class="block-company__logo" src="img/reviews/logo.png" alt="logo" /></picture>
+                    <div class="block-company__info">
+                      <div class="block-company__name">Bluegrass Hemp Oil</div>
+                      <div class="block-company__email">bluegrasshempoil.com</div>
+                    </div>
+                    <div class="block-company__rating">
+                      <div class="rating rating--green">
+                        <div class="rating__value">
+                          <span class="rating__value-text">Rating:</span>
+                          <span class="rating__value-count">3.0</span>
+                        </div>
+                        <div class="rating__items">
+                          <span class="rating__item">
+                            <svg class="rating__item-icon filled">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon filled">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon filled">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <p class="block-company__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean tristique nisl nec fermentum eleifend. Fusce tincidunt, tortor a elementum vehicula, magna ligula iaculis lacus, vel feugiat velit felis a metus. </p>
+                  <div class="block-company__reviews">
+                    <button class="block-company__reviews-open link" type="button" data-spoller> Latest reviews </button>
+                    <div class="block-company__reviews-body">
+                      <ul class="block-company__reviews-items">
+                        <li class="reviews-card">
+                          <a class="reviews-card__link link" href="#"></a>
+                          <div class="review-card__date">7 May, 2025</div>
+                          <div class="review-card__info">
+                            <picture><source srcset="img/bests/majority.webp" type="image/webp"><img src="img/bests/majority.png" alt="" class="review-card__icon" /></picture>
+                            <div class="review-card__rating rating">
+                              <div class="rating__items">
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="review-card__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. </div>
+                        </li>
+                        <li class="reviews-card">
+                          <a class="reviews-card__link link" href="#"></a>
+                          <div class="review-card__date">7 May, 2025</div>
+                          <div class="review-card__info">
+                            <picture><source srcset="img/bests/majority.webp" type="image/webp"><img src="img/bests/majority.png" alt="" class="review-card__icon" /></picture>
+                            <div class="review-card__rating rating">
+                              <div class="rating__items">
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="review-card__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. </div>
+                        </li>
+                        <li class="reviews-card">
+                          <a class="reviews-card__link link" href="#"></a>
+                          <div class="review-card__date">7 May, 2025</div>
+                          <div class="review-card__info">
+                            <picture><source srcset="img/bests/majority.webp" type="image/webp"><img src="img/bests/majority.png" alt="" class="review-card__icon" /></picture>
+                            <div class="review-card__rating rating">
+                              <div class="rating__items">
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="review-card__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="block-company">
+                  <a href="#" class="block-company__link link">
+                    <picture><source srcset="img/reviews/logo.webp" type="image/webp"><img class="block-company__logo" src="img/reviews/logo.png" alt="logo" /></picture>
+                    <div class="block-company__info">
+                      <div class="block-company__name">Bluegrass Hemp Oil</div>
+                      <div class="block-company__email">bluegrasshempoil.com</div>
+                    </div>
+                    <div class="block-company__rating">
+                      <div class="rating rating--green">
+                        <div class="rating__value">
+                          <span class="rating__value-text">Rating:</span>
+                          <span class="rating__value-count">3.0</span>
+                        </div>
+                        <div class="rating__items">
+                          <span class="rating__item">
+                            <svg class="rating__item-icon filled">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon filled">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon filled">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <p class="block-company__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean tristique nisl nec fermentum eleifend. Fusce tincidunt, tortor a elementum vehicula, magna ligula iaculis lacus, vel feugiat velit felis a metus. </p>
+                  <div class="block-company__reviews">
+                    <button class="block-company__reviews-open link" type="button" data-spoller> Latest reviews </button>
+                    <div class="block-company__reviews-body">
+                      <ul class="block-company__reviews-items">
+                        <li class="reviews-card">
+                          <a class="reviews-card__link link" href="#"></a>
+                          <div class="review-card__date">7 May, 2025</div>
+                          <div class="review-card__info">
+                            <picture><source srcset="img/bests/majority.webp" type="image/webp"><img src="img/bests/majority.png" alt="" class="review-card__icon" /></picture>
+                            <div class="review-card__rating rating">
+                              <div class="rating__items">
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="review-card__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. </div>
+                        </li>
+                        <li class="reviews-card">
+                          <a class="reviews-card__link link" href="#"></a>
+                          <div class="review-card__date">7 May, 2025</div>
+                          <div class="review-card__info">
+                            <picture><source srcset="img/bests/majority.webp" type="image/webp"><img src="img/bests/majority.png" alt="" class="review-card__icon" /></picture>
+                            <div class="review-card__rating rating">
+                              <div class="rating__items">
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="review-card__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. </div>
+                        </li>
+                        <li class="reviews-card">
+                          <a class="reviews-card__link link" href="#"></a>
+                          <div class="review-card__date">7 May, 2025</div>
+                          <div class="review-card__info">
+                            <picture><source srcset="img/bests/majority.webp" type="image/webp"><img src="img/bests/majority.png" alt="" class="review-card__icon" /></picture>
+                            <div class="review-card__rating rating">
+                              <div class="rating__items">
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="review-card__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="block-company">
+                  <a href="#" class="block-company__link link">
+                    <picture><source srcset="img/reviews/logo.webp" type="image/webp"><img class="block-company__logo" src="img/reviews/logo.png" alt="logo" /></picture>
+                    <div class="block-company__info">
+                      <div class="block-company__name">Bluegrass Hemp Oil</div>
+                      <div class="block-company__email">bluegrasshempoil.com</div>
+                    </div>
+                    <div class="block-company__rating">
+                      <div class="rating rating--green">
+                        <div class="rating__value">
+                          <span class="rating__value-text">Rating:</span>
+                          <span class="rating__value-count">3.0</span>
+                        </div>
+                        <div class="rating__items">
+                          <span class="rating__item">
+                            <svg class="rating__item-icon filled">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon filled">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon filled">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                          <span class="rating__item">
+                            <svg class="rating__item-icon">
+                              <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <p class="block-company__description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean tristique nisl nec fermentum eleifend. Fusce tincidunt, tortor a elementum vehicula, magna ligula iaculis lacus, vel feugiat velit felis a metus. </p>
+                  <div class="block-company__reviews">
+                    <button class="block-company__reviews-open link" type="button" data-spoller> Latest reviews </button>
+                    <div class="block-company__reviews-body">
+                      <ul class="block-company__reviews-items">
+                        <li class="reviews-card">
+                          <a class="reviews-card__link link" href="#"></a>
+                          <div class="review-card__date">7 May, 2025</div>
+                          <div class="review-card__info">
+                            <picture><source srcset="img/bests/majority.webp" type="image/webp"><img src="img/bests/majority.png" alt="" class="review-card__icon" /></picture>
+                            <div class="review-card__rating rating">
+                              <div class="rating__items">
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="review-card__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. </div>
+                        </li>
+                        <li class="reviews-card">
+                          <a class="reviews-card__link link" href="#"></a>
+                          <div class="review-card__date">7 May, 2025</div>
+                          <div class="review-card__info">
+                            <picture><source srcset="img/bests/majority.webp" type="image/webp"><img src="img/bests/majority.png" alt="" class="review-card__icon" /></picture>
+                            <div class="review-card__rating rating">
+                              <div class="rating__items">
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="review-card__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. </div>
+                        </li>
+                        <li class="reviews-card">
+                          <a class="reviews-card__link link" href="#"></a>
+                          <div class="review-card__date">7 May, 2025</div>
+                          <div class="review-card__info">
+                            <picture><source srcset="img/bests/majority.webp" type="image/webp"><img src="img/bests/majority.png" alt="" class="review-card__icon" /></picture>
+                            <div class="review-card__rating rating">
+                              <div class="rating__items">
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon filled">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                                <span class="rating__item">
+                                  <svg class="rating__item-icon">
+                                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="review-card__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac risus a risus elementum vehicula. </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <div class="skeleton-card skeleton-card--company" aria-hidden="true">
+                  <picture>
+                    <source srcset="img/svg/skeleton-company.svg" media="(min-width: 640px)" />
+                    <source srcset="img/svg/skeleton-company-big-mob.svg" media="(min-width: 440px)" />
+                    <img src="img/svg/skeleton-company-mob.svg" alt="" />
+                  </picture>
+                </div>
+              </ul>
+              <div class="pagination">
+                <button class="pagination__btn">
+                  <svg class="pagination__btn-icon pagination__btn-icon--prev">
+                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                  </svg>
+                </button>
+                <a href="#" class="pagination__item active">1</a>
+                <a href="#" class="pagination__item">2</a>
+                <a href="#" class="pagination__item">3</a>
+                <a href="#" class="pagination__item">4</a>
+                <a href="#" class="pagination__item">5</a>
+                <button class="pagination__btn">
+                  <svg class="pagination__btn-icon pagination__btn-icon--next">
+                    <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__info">
+            <a href="#" class="footer__logo">
+              <svg class="footer__logo-icon">
+                <use xlink:href="img/symbol/svg/sprite.symbol.svg#logo"></use>
+              </svg>
+            </a>
+            <p class="footer__text text"> Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem totam rem aperiam. </p>
+            <a class="footer__tel" href="tel:+012 (345) 678 99">+012 (345) 678 99</a>
+          </div>
+          <div data-spollers="768,max" data-one-spoller class="footer__menu menu-footer">
+            <div class="menu-footer__column">
+              <button data-spoller type="button" class="menu-footer__title"> Resources </button>
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Saas Development</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Our Products</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Our Products</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link"> User Strategy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-footer__column">
+              <button data-spoller type="button" class="menu-footer__title"> Company </button>
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">About Landio</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link"> Contact &amp; Support</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Success History</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link"> Setting &amp; Privacy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-footer__column">
+              <button data-spoller type="button" class="menu-footer__title"> Quick Links </button>
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Premium Support</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Our Services</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Know Our Team</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Download App</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__socials">
+            <div class="footer__socials-title">Follow Us On</div>
+            <div class="footer__socials-items">
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#facebook"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#youtube"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#linkedin"></use>
+                </svg>
+              </a>
+            </div>
+            <p class="footer__copy text">© 2025 Approved.com</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <link rel="stylesheet" href="./css/icons-640cbc1880.css" />
+    <link rel="stylesheet" href="./css/second-73c8fe3ce5.css" />
+    <script type="text/javascript" src="./js/all-270da0d857.js"></script>
+  </body>
+
+</html>
