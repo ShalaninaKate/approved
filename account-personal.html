@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Personal</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./css/main-047e267a09.css" />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <svg class="preloader__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+        <rect fill="#4F5CFF" stroke="#4F5CFF" stroke-width="26" width="30" height="30" x="25" y="85">
+          <animate attributeName="opacity" calcMode="spline" dur="2.7" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate>
+        </rect>
+        <rect fill="#4F5CFF" stroke="#4F5CFF" stroke-width="26" width="30" height="30" x="85" y="85">
+          <animate attributeName="opacity" calcMode="spline" dur="2.7" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate>
+        </rect>
+        <rect fill="#4F5CFF" stroke="#4F5CFF" stroke-width="26" width="30" height="30" x="145" y="85">
+          <animate attributeName="opacity" calcMode="spline" dur="2.7" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate>
+        </rect>
+      </svg>
+    </div>
+    <div class="wrapper">
+      <div class="page-top">
+        <header class="header animate header--page">
+          <div class="header__container">
+            <a href="" class="header__logo">
+              <svg class="header__logo-icon">
+                <use xlink:href="img/symbol/svg/sprite.symbol.svg#logo"></use>
+              </svg>
+            </a>
+            <div class="header__menu menu">
+              <nav class="menu__body">
+                <!-- <ul data-spollers="992,max" data-one-spoller class="menu__list">
+          <li class="menu__item">
+            <button data-spoller class="menu__link menu__link--btn">
+              Products
+              <svg class="menu__arrow-icon">
+                <use xlink:href="img/sprite.svg#arrow"></use>
+              </svg>
+            </button>
+            <ul class="menu__sub-list">
+              <li class="menu__sub-item">
+                <a href="#" class="menu__sub-link">link 1</a>
+              </li>
+              <li class="menu__sub-item">
+                <a href="#" class="menu__sub-link"> link 2</a>
+              </li>
+              <li class="menu__sub-item">
+                <a href="#" class="menu__sub-link">link 3</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <button data-spoller class="menu__link menu__link--btn">
+              Features
+              <svg class="menu__arrow-icon">
+                <use xlink:href="img/sprite.svg#arrow"></use>
+              </svg>
+            </button>
+            <ul class="menu__sub-list">
+              <li class="menu__sub-item">
+                <a href="#" class="menu__sub-link">link 1</a>
+              </li>
+              <li class="menu__sub-item">
+                <a href="#" class="menu__sub-link"> link 2</a>
+              </li>
+              <li class="menu__sub-item">
+                <a href="#" class="menu__sub-link">link 3</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <button data-spoller class="menu__link menu__link--btn">
+              Resources
+              <svg class="menu__arrow-icon">
+                <use xlink:href="img/sprite.svg#arrow"></use>
+              </svg>
+            </button>
+            <ul class="menu__sub-list">
+              <li class="menu__sub-item">
+                <a href="#" class="menu__sub-link">link 1</a>
+              </li>
+              <li class="menu__sub-item">
+                <a href="#" class="menu__sub-link"> link 2</a>
+              </li>
+              <li class="menu__sub-item">
+                <a href="#" class="menu__sub-link">link 3</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Pricing</a>
+          </li>
+        </ul> -->
+              </nav>
+            </div>
+            <div class="header__profile profile dropdown-item">
+              <button class="profile__btn dropdown-btn" type="button">
+                <picture><source srcset="img/avatar.webp" type="image/webp"><img class="profile__ava" src="img/avatar.png" alt="ava" /></picture>
+                <span class="profile__name">David Milinear</span>
+                <svg class="profile__arrow">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                </svg>
+              </button>
+              <div class="profile__dropdown dropdown-account dropdown">
+                <ul class="dropdown-account__items">
+                  <li class="dropdown-account__item">
+                    <a href="#" class="dropdown-account__link">
+                      <span class="dropdown-account__text">My Reviews</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-account__item">
+                    <a href="#" class="dropdown-account__link">
+                      <span class="dropdown-account__text">My Settings</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-account__item">
+                    <a href="#" class="dropdown-account__link">
+                      <span class="dropdown-account__text">My Account</span>
+                    </a>
+                  </li>
+                  <li class="dropdown-account__item">
+                    <a href="#" class="dropdown-account__link">
+                      <span class="dropdown-account__text">Logout</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- <button type="button" class="icon-menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button> -->
+          </div>
+        </header>
+      </div>
+      <main class="page">
+        <div class="account">
+          <div class="account__container">
+            <div class="account__nav">
+              <nav class="account-nav">
+                <ul class="account-nav__list">
+                  <li class="account-nav__item">
+                    <a href="/account/reviews" class="account-nav__link active">
+                      <span class="d-desktop">My Reviews</span>
+                      <span class="d-mobile">Reviews</span>
+                    </a>
+                  </li>
+                  <li class="account-nav__item">
+                    <a href="/account/settings" class="account-nav__link ">
+                      <span class="d-desktop">My Settings</span>
+                      <span class="d-mobile">Settings</span>
+                    </a>
+                  </li>
+                  <li class="account-nav__item">
+                    <a href="/account/info" class="account-nav__link ">
+                      <span class="d-desktop">My Information</span>
+                      <span class="d-mobile">Info</span>
+                    </a>
+                  </li>
+                  <li class="account-nav__item">
+                    <a href="/logout" class="account-nav__link ">
+                      <span class="d-desktop">Logout</span>
+                      <span class="d-mobile">Logout</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="account-reviews">
+              <div class="account-reviews__statistics">
+                <div class="account-statistics">
+                  <div class="account-statistics__item">
+                    <div class="account-statistics__img account-statistics__img--reviews">
+                      <svg class="account-statistics__icon">
+                        <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-green"></use>
+                      </svg>
+                    </div>
+                    <div class="account-statistics__info">
+                      <div class="account-statistics__title">Reviews</div>
+                      <div class="account-statistics__text">All time</div>
+                    </div>
+                    <div class="account-statistics__value">568</div>
+                  </div>
+                  <div class="account-statistics__item">
+                    <div class="account-statistics__img account-statistics__img--reads">
+                      <svg class="account-statistics__icon">
+                        <use xlink:href="img/symbol/svg/sprite.symbol.svg#eye-stat"></use>
+                      </svg>
+                    </div>
+                    <div class="account-statistics__info">
+                      <div class="account-statistics__title">Reads</div>
+                      <div class="account-statistics__text">This week</div>
+                    </div>
+                    <div class="account-statistics__value">1 520</div>
+                  </div>
+                </div>
+              </div>
+              <div class="account-reviews__body">
+                <div class="account-reviews__filters">
+                  <div class="account-reviews__filters-items">
+                    <div class="account-reviews__filters-search input">
+                      <input class="input__control" type="text" name="" value="" placeholder="What is important for people to know?" />
+                      <button class="input__btn">
+                        <svg class="input__btn-search">
+                          <use xlink:href="img/symbol/svg/sprite.symbol.svg#search"></use>
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="account-reviews__filters-input input input-select">
+                      <input class="input__control input__control--select dropdown-input" type="text" name="" value="Most Latest" readonly="" />
+                      <button class="input__btn dropdown-button">
+                        <img src="img/svg/arrow.svg" alt="arrow" class="input__btn-arrow" />
+                      </button>
+                      <ul class="dropdown-select">
+                        <li class="dropdown-select__item">
+                          <span>Newest</span>
+                        </li>
+                        <li class="dropdown-select__item">
+                          <span>Most Latest</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <ul class="account-reviews__items">
+                  <li class="account-reviews-item">
+                    <div class="account-reviews-item__header">
+                      <picture><source srcset="img/xb-logo.webp" type="image/webp"><img class="account-reviews-item__avatar" src="img/xb-logo.png" alt="avatar" /></picture>
+                      <div class="account-reviews-item__info">
+                        <div class="account-reviews-item__company">XBANKING</div>
+                        <div class="account-reviews-item__address">xbanking.com</div>
+                      </div>
+                      <div class="account-reviews-item__rating">
+                        <div class="rating rating--green">
+                          <div class="rating__value">
+                            <span class="rating__value-count">4.0</span>
+                          </div>
+                          <div class="rating__items">
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="account-reviews-item__body">
+                      <h2 class="account-reviews-item__title"> Probably the best provider of staking… </h2>
+                      <p class="account-reviews-item__text"> Probably the best provider of staking and liquidity pools that I have been using since 2023 and recommend to everyone </p>
+                    </div>
+                    <div class="account-reviews-item__actions">
+                      <button class="account-reviews-item__action account-reviews-item__action--edit"> Edit Reply <svg class="account-reviews-item__action-icon">
+                          <use xlink:href="img/symbol/svg/sprite.symbol.svg#edit"></use>
+                        </svg>
+                      </button>
+                      <button class="account-reviews-item__action account-reviews-item__action--del"> Delete <svg class="account-reviews-item__action-icon">
+                          <use xlink:href="img/symbol/svg/sprite.symbol.svg#trash"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="account-reviews-item">
+                    <div class="account-reviews-item__header">
+                      <picture><source srcset="img/xb-logo.webp" type="image/webp"><img class="account-reviews-item__avatar" src="img/xb-logo.png" alt="avatar" /></picture>
+                      <div class="account-reviews-item__info">
+                        <div class="account-reviews-item__company">XBANKING</div>
+                        <div class="account-reviews-item__address">xbanking.com</div>
+                      </div>
+                      <div class="account-reviews-item__rating">
+                        <div class="rating rating--green">
+                          <div class="rating__value">
+                            <span class="rating__value-count">4.0</span>
+                          </div>
+                          <div class="rating__items">
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="account-reviews-item__body">
+                      <h2 class="account-reviews-item__title"> Probably the best provider of staking… </h2>
+                      <p class="account-reviews-item__text"> Probably the best provider of staking and liquidity pools that I have been using since 2023 and recommend to everyone </p>
+                    </div>
+                    <div class="account-reviews-item__actions">
+                      <button class="account-reviews-item__action account-reviews-item__action--edit"> Edit Reply <svg class="account-reviews-item__action-icon">
+                          <use xlink:href="img/symbol/svg/sprite.symbol.svg#edit"></use>
+                        </svg>
+                      </button>
+                      <button class="account-reviews-item__action account-reviews-item__action--del"> Delete <svg class="account-reviews-item__action-icon">
+                          <use xlink:href="img/symbol/svg/sprite.symbol.svg#trash"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="account-reviews-item">
+                    <div class="account-reviews-item__header">
+                      <picture><source srcset="img/xb-logo.webp" type="image/webp"><img class="account-reviews-item__avatar" src="img/xb-logo.png" alt="avatar" /></picture>
+                      <div class="account-reviews-item__info">
+                        <div class="account-reviews-item__company">XBANKING</div>
+                        <div class="account-reviews-item__address">xbanking.com</div>
+                      </div>
+                      <div class="account-reviews-item__rating">
+                        <div class="rating rating--green">
+                          <div class="rating__value">
+                            <span class="rating__value-count">4.0</span>
+                          </div>
+                          <div class="rating__items">
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon filled">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                            <span class="rating__item">
+                              <svg class="rating__item-icon">
+                                <use xlink:href="img/symbol/svg/sprite.symbol.svg#star-fill"></use>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="account-reviews-item__body">
+                      <h2 class="account-reviews-item__title"> Probably the best provider of staking… </h2>
+                      <p class="account-reviews-item__text"> Probably the best provider of staking and liquidity pools that I have been using since 2023 and recommend to everyone </p>
+                    </div>
+                    <div class="account-reviews-item__actions">
+                      <button class="account-reviews-item__action account-reviews-item__action--edit"> Edit Reply <svg class="account-reviews-item__action-icon">
+                          <use xlink:href="img/symbol/svg/sprite.symbol.svg#edit"></use>
+                        </svg>
+                      </button>
+                      <button class="account-reviews-item__action account-reviews-item__action--del"> Delete <svg class="account-reviews-item__action-icon">
+                          <use xlink:href="img/symbol/svg/sprite.symbol.svg#trash"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </li>
+                </ul>
+                <div class="pagination">
+                  <button class="pagination__btn">
+                    <svg class="pagination__btn-icon pagination__btn-icon--prev">
+                      <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                    </svg>
+                  </button>
+                  <a href="#" class="pagination__item active">1</a>
+                  <a href="#" class="pagination__item">2</a>
+                  <a href="#" class="pagination__item">3</a>
+                  <a href="#" class="pagination__item">4</a>
+                  <a href="#" class="pagination__item">5</a>
+                  <button class="pagination__btn">
+                    <svg class="pagination__btn-icon pagination__btn-icon--next">
+                      <use xlink:href="img/symbol/svg/sprite.symbol.svg#arrow"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__info">
+            <a href="#" class="footer__logo">
+              <svg class="footer__logo-icon">
+                <use xlink:href="img/symbol/svg/sprite.symbol.svg#logo"></use>
+              </svg>
+            </a>
+            <p class="footer__text text"> Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem totam rem aperiam. </p>
+            <a class="footer__tel" href="tel:+012 (345) 678 99">+012 (345) 678 99</a>
+          </div>
+          <div data-spollers="768,max" data-one-spoller class="footer__menu menu-footer">
+            <div class="menu-footer__column">
+              <button data-spoller type="button" class="menu-footer__title"> Resources </button>
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Saas Development</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Our Products</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Our Products</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link"> User Strategy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-footer__column">
+              <button data-spoller type="button" class="menu-footer__title"> Company </button>
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">About Landio</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link"> Contact &amp; Support</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Success History</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link"> Setting &amp; Privacy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-footer__column">
+              <button data-spoller type="button" class="menu-footer__title"> Quick Links </button>
+              <ul class="menu-footer__list">
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Premium Support</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Our Services</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Know Our Team</a>
+                </li>
+                <li class="menu-footer__item">
+                  <a href="#" class="menu-footer__link">Download App</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__socials">
+            <div class="footer__socials-title">Follow Us On</div>
+            <div class="footer__socials-items">
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#facebook"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#youtube"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer__socials-item">
+                <svg class="footer__socials-icon">
+                  <use xlink:href="img/symbol/svg/sprite.symbol.svg#linkedin"></use>
+                </svg>
+              </a>
+            </div>
+            <p class="footer__copy text">© 2025 Approved.com</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <link rel="stylesheet" href="./css/icons-640cbc1880.css" />
+    <link rel="stylesheet" href="./css/second-876d4185d3.css" />
+    <script type="text/javascript" src="./js/all-4f479326a0.js"></script>
+  </body>
+
+</html>
